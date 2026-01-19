@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.myrepo"
+       name="MyRepo"
+       version="1.0.0"
+       provider-name="MyRepo">
+
+  <extension point="xbmc.addon.repository">
+	<info>https://vbal-code.github.io/myrepo/addons.xml</info>
+	<checksum>https://vbal-code.github.io/myrepo/addons.xml.md5</checksum>
+	<datadir zip="true">https://vbal-code.github.io/myrepo/repo/</datadir>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>My Kodi Repository</summary>
+    <description>Repository for context.subtitles.gr</description>
+    <platform>all</platform>
+  </extension>
+
+</addon>
